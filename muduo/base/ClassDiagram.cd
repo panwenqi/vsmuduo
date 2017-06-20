@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="muduo::T" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAEAAA=</HashCode>
+      <FileName>Logging.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::AsyncLogging" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBEABAAAAAQAJAAkAEAAEAAAIAAgAAAAAAEkAAAAIAA=</HashCode>
+      <FileName>AsyncLogging.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::BlockingQueue&lt;T&gt;" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAIBAAAAAAABAAAAAAAABAAABIAA=</HashCode>
+      <FileName>BlockingQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::BoundedBlockingQueue&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAAAAAAAIJAAAACAIACAAAAAAABAAABIAA=</HashCode>
+      <FileName>BoundedBlockingQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Condition" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACIAAAAAAAAAAAAAAAAAAAMAAAAQAAAMAQ=</HashCode>
+      <FileName>Condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::copyable" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>copyable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::CountDownLatch" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAQAAABAABAAAAAAAAAAAAAAEAAAAAAAEIAA=</HashCode>
+      <FileName>CountDownLatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Date" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEkAAABAgAAAAQAAAAAAAAAAAQAAAEBEQAAAAAAEAQ=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Exception" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAACAAAAAAAIBAAAAAAAAAIBAAABAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::GzipFile" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAgAAAAAACAACAAIAAAIBAEAAYAgQAAEAAQ=</HashCode>
+      <FileName>GzipFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::LogFile" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAgAIAAEBBAgAAAAAACIAAiAAAkAAAQAIBA=</HashCode>
+      <FileName>LogFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::TimeZone" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAIAAAAAAAAAAAAAgAgAAAAAAQAAAAAAAAQ=</HashCode>
+      <FileName>TimeZone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Logger" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAACAAIAIIAAAAAAAAACAAAAAAAACAAAAACAAAA=</HashCode>
+      <FileName>Logging.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::LogStream" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAACAQAAAAABAAAAAAAFAAgAAgAA=</HashCode>
+      <FileName>LogStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Fmt" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAIAAE=</HashCode>
+      <FileName>LogStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::MutexLock" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAFEAACEAAAAgAAAAAAAACAAAQAAAAAAAAAKAA=</HashCode>
+      <FileName>Mutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::MutexLockGuard" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAA=</HashCode>
+      <FileName>Mutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAEAAAABAACMAAAAAAAIAAAA=</HashCode>
+      <FileName>Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::StringArg" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>StringPiece.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::StringPiece" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAAAACQAGAoQABQASABEAAAAAAAAQBAAIQAA=</HashCode>
+      <FileName>StringPiece.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Thread" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAQAAICAgACAICgACAAAEAAAAAAAARAAAIAA=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::ThreadLocal&lt;T&gt;" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAgAAAIAABAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThreadLocal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::ThreadLocalSingleton&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAGAAgAAAAAAAAAAABAIAAABAAAAAAAAAg=</HashCode>
+      <FileName>ThreadLocalSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::ThreadPool" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgEiAAAAAAAkAABAkAAAAIAkQAgAAgBBCAABIAA=</HashCode>
+      <FileName>ThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::Timestamp" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAABCAEAACJACAAAAAAAAAAQAAAAAAAAQ=</HashCode>
+      <FileName>Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::WeakCallback&lt;CLASS&gt;" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEgAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WeakCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::detail::FixedBuffer&lt;SIZE&gt;" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAgJAGAAAAAAABAEgARSAAgAAAAAAAAAEQACACAAA=</HashCode>
+      <FileName>LogStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::detail::ThreadNameInitializer" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Thread.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::detail::File" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAECAAAABBAAAAAAEQ=</HashCode>
+      <FileName>TimeZone.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::detail::AtomicIntegerT&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAQAACAAAAAAAAAQCAgAAAAACAAABAQAAACAAA=</HashCode>
+      <FileName>Atomic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::FileUtil::ReadSmallFile" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAACAAAAAAAGAAAAAAAAAAAAAABIAAAJAAE=</HashCode>
+      <FileName>FileUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::FileUtil::AppendFile" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAERmAAgAAAAA=</HashCode>
+      <FileName>FileUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="muduo::detail::ThreadData" Collapsed="true">
+    <Position X="18.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACQAAAAAgAAAAAAAAAAAACAAAAAAIAA=</HashCode>
+      <FileName>Thread.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="muduo::detail::Transition" Collapsed="true">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>TimeZone.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="muduo::detail::Comp" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAEAAAAAgBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeZone.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="muduo::detail::Localtime" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TimeZone.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="muduo::detail::has_no_destroy&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__type_traits&lt;muduo::StringPiece&gt;" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringPiece.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="muduo::ProcessInfo::CpuTime" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAACCAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="muduo::AtomicInt32" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Atomic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::AtomicInt64" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Atomic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::string" Collapsed="true">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

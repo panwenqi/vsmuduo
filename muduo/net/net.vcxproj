@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB2B333B-819E-4002-ADF1-1DB7E02FE7B1}</ProjectGuid>
+    <RootNamespace>net</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\visual studio project;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Acceptor.cc" />
+    <ClCompile Include="boilerplate.cc" />
+    <ClCompile Include="Buffer.cc" />
+    <ClCompile Include="Channel.cc" />
+    <ClCompile Include="Connector.cc" />
+    <ClCompile Include="EventLoop.cc" />
+    <ClCompile Include="EventLoopThread.cc" />
+    <ClCompile Include="EventLoopThreadPool.cc" />
+    <ClCompile Include="http\HttpContext.cc" />
+    <ClCompile Include="http\HttpResponse.cc" />
+    <ClCompile Include="http\HttpServer.cc" />
+    <ClCompile Include="InetAddress.cc" />
+    <ClCompile Include="inspect\Inspector.cc" />
+    <ClCompile Include="inspect\PerformanceInspector.cc" />
+    <ClCompile Include="inspect\ProcessInspector.cc" />
+    <ClCompile Include="inspect\SystemInspector.cc" />
+    <ClCompile Include="Poller.cc" />
+    <ClCompile Include="poller\DefaultPoller.cc" />
+    <ClCompile Include="poller\EPollPoller.cc" />
+    <ClCompile Include="poller\PollPoller.cc" />
+    <ClCompile Include="protobuf\ProtobufCodecLite.cc" />
+    <ClCompile Include="protorpc\RpcChannel.cc" />
+    <ClCompile Include="protorpc\RpcCodec.cc" />
+    <ClCompile Include="protorpc\RpcCodec_test.cc" />
+    <ClCompile Include="protorpc\RpcServer.cc" />
+    <ClCompile Include="Socket.cc" />
+    <ClCompile Include="SocketsOps.cc" />
+    <ClCompile Include="TcpClient.cc" />
+    <ClCompile Include="TcpConnection.cc" />
+    <ClCompile Include="TcpServer.cc" />
+    <ClCompile Include="Timer.cc" />
+    <ClCompile Include="TimerQueue.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Acceptor.h" />
+    <ClInclude Include="boilerplate.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="Callbacks.h" />
+    <ClInclude Include="Channel.h" />
+    <ClInclude Include="Connector.h" />
+    <ClInclude Include="Endian.h" />
+    <ClInclude Include="EventLoop.h" />
+    <ClInclude Include="EventLoopThread.h" />
+    <ClInclude Include="EventLoopThreadPool.h" />
+    <ClInclude Include="http\HttpContext.h" />
+    <ClInclude Include="http\HttpRequest.h" />
+    <ClInclude Include="http\HttpResponse.h" />
+    <ClInclude Include="http\HttpServer.h" />
+    <ClInclude Include="InetAddress.h" />
+    <ClInclude Include="inspect\Inspector.h" />
+    <ClInclude Include="inspect\PerformanceInspector.h" />
+    <ClInclude Include="inspect\ProcessInspector.h" />
+    <ClInclude Include="inspect\SystemInspector.h" />
+    <ClInclude Include="Poller.h" />
+    <ClInclude Include="poller\EPollPoller.h" />
+    <ClInclude Include="poller\PollPoller.h" />
+    <ClInclude Include="protobuf\BufferStream.h" />
+    <ClInclude Include="protobuf\ProtobufCodecLite.h" />
+    <ClInclude Include="protorpc\google-inl.h" />
+    <ClInclude Include="protorpc\RpcChannel.h" />
+    <ClInclude Include="protorpc\RpcCodec.h" />
+    <ClInclude Include="protorpc\RpcServer.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="SocketsOps.h" />
+    <ClInclude Include="TcpClient.h" />
+    <ClInclude Include="TcpConnection.h" />
+    <ClInclude Include="TcpServer.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TimerId.h" />
+    <ClInclude Include="TimerQueue.h" />
+    <ClInclude Include="ZlibStream.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

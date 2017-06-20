@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="`anonymous-namespace'::IgnoreSigPipe" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventLoop.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::EventLoop" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIAgUgBqAACEACAAakBDAEAANAQAjAABIFACIgIMw=</HashCode>
+      <FileName>EventLoop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::InetAddress" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQEAAAACCKAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>InetAddress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Acceptor" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAEAYAIAAABAAAAQAAAABAAAAAAAAAAAQAAAEAI=</HashCode>
+      <FileName>Acceptor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::BoilerPlate" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>boilerplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Buffer" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pAJCARwCQGAEAADAIJCAcICQAQACAAKyAwEk4gCIwAE=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::TcpConnection" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgCQgdqAWAAQABLCAZIAAUiEAQEgQBGAACJQitiIBU=</HashCode>
+      <FileName>TcpConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Channel" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAhAAAAkEIBAZhCEIBoIAAAAFIAAAAJCYQQAQCiVEIA=</HashCode>
+      <FileName>Channel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Connector" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgQABAgAUIAAAEggBCAAgABAEAwAAAEBAIAQCAAEAQ=</HashCode>
+      <FileName>Connector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Poller" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAEAAQEQAAAAAAAEQoQAAAAAAA=</HashCode>
+      <FileName>Poller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::TimerQueue" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CADgFAEEQIBAAAQAAAAAAAAAAABAAAAAQAAAQACAIAA=</HashCode>
+      <FileName>TimerQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::EventLoopThread" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAACAAAAAAAAAAAAAIYAAAAAAQAAAEQAAAIAA=</HashCode>
+      <FileName>EventLoopThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::EventLoopThreadPool" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAggAAAAkABAAAgBAIAAEBAAAAAAAQAAAMAA=</HashCode>
+      <FileName>EventLoopThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Socket" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAQQEAAABgAAAAAAAAAAAAgQACBAAAAAABAAE=</HashCode>
+      <FileName>Socket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::TcpClient" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgQAAAiIEAAAAAAiAABAAEDAgAkAQAAAAIAQAhGIAA=</HashCode>
+      <FileName>TcpClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::TcpServer" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMgABAAiAAAAEAAgCgAAQAEDIAAEQQAAIoIAQABAIAA=</HashCode>
+      <FileName>TcpServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Timer" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAhBAAAAAAAAAAAAACACAAAAAAgAAAQAAAACECQA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::TimerId" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQ=</HashCode>
+      <FileName>TimerId.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::ZlibInputStream" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAAAACAAAgAAAAAAAAQAACAQAAEA=</HashCode>
+      <FileName>ZlibStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::ZlibOutputStream" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAQAACAQAQAAAAAAAAAAAAAAgAABIQAADAAEAEA=</HashCode>
+      <FileName>ZlibStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::HttpContext" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAMAAAAAAAAAAAAAAKAAAAAAAAFAAAAACAAAAA=</HashCode>
+      <FileName>http\HttpContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::HttpRequest" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQACAgCAgBgACAQAAAKAABgABAAAAAAEQAIAgAAAAA=</HashCode>
+      <FileName>http\HttpRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::HttpResponse" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAACBAAABAAABIYAAIBABAIACEAAAA=</HashCode>
+      <FileName>http\HttpResponse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::HttpServer" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAgAAAAgAAAAAAECIAAAAAAAAAAAgQECgAA=</HashCode>
+      <FileName>http\HttpServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::ProcessInspector" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAQAAAgIAAAAAAAEAAAAAAAAAABAAAgAAAAA=</HashCode>
+      <FileName>inspect\ProcessInspector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::PerformanceInspector" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAAQAAAAAAEAAEAAAAAAAAEAAAAAAQAAAiAAA=</HashCode>
+      <FileName>inspect\PerformanceInspector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::SystemInspector" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQCAAgAAAAAAgAAAAAAAEgAAAAAAAAAAAAA=</HashCode>
+      <FileName>inspect\SystemInspector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::Inspector" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAgAAACAAAkAAAAgAAAAAAAAAAQQAAAAQACIAA=</HashCode>
+      <FileName>inspect\Inspector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::EPollPoller" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAEBAAAgAAQAAIBAAAAAAAAAAAAAoAAAAEAAA=</HashCode>
+      <FileName>poller\EPollPoller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::PollPoller" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAoAAAEAAAA=</HashCode>
+      <FileName>poller\PollPoller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::BufferOutputStream" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQQAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>protobuf\BufferStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::ProtobufCodecLite" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAgAACAgAAAAQCAECAAAQAAIEEIAAAaAQAAAAAABpCA=</HashCode>
+      <FileName>protobuf\ProtobufCodecLite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::ProtobufCodecLiteT&lt;MSG, TAG, CODEC&gt;" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAgAAAARAEAAAAAAAAIAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>protobuf\ProtobufCodecLite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::RpcChannel" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAAABEEAAAAAAACAAAAAAAAAAAAAAICCo4A=</HashCode>
+      <FileName>protorpc\RpcChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="muduo::net::RpcServer" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgIAAAAIAAIAAAAAAAAAAAAYAAAAA=</HashCode>
+      <FileName>protorpc\RpcServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="`anonymous-namespace'::SA" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketsOps.cc</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::TcpConnectionPtr" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::TimerCallback" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::ConnectionCallback" Collapsed="true">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::CloseCallback" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::WriteCompleteCallback" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::HighWaterMarkCallback" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::MessageCallback" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::ConnectorPtr" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TcpClient.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::MessagePtr" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>protobuf\ProtobufCodecLite.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::RpcChannelPtr" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>protorpc\RpcChannel.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::RpcMessagePtr" Collapsed="true">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>protorpc\RpcCodec.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="muduo::net::RpcCodec" Collapsed="true">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>protorpc\RpcCodec.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

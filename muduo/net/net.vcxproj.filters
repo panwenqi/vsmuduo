@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\http">
+      <UniqueIdentifier>{a33ddf05-e679-4283-9ebc-d12793148e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\http">
+      <UniqueIdentifier>{cc304dee-77cd-4279-9d2b-58646978b5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\inspect">
+      <UniqueIdentifier>{4a125c48-819e-43af-bdd4-0e8003c61edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\inspect">
+      <UniqueIdentifier>{4832a408-31ec-41cd-b416-1441618e912c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\poller">
+      <UniqueIdentifier>{387f1851-015d-4e46-85f8-3cbac39b1307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\poller">
+      <UniqueIdentifier>{53557aec-c60c-4276-9986-daa80c3de4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf">
+      <UniqueIdentifier>{87232167-f8ec-4c30-9a20-7b44c4aa512e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\protobuf">
+      <UniqueIdentifier>{6eb40155-a280-4760-a135-0ccd2293316c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protorpc">
+      <UniqueIdentifier>{2a249063-7232-4d68-a3bf-a71c90ca446e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\protorpc">
+      <UniqueIdentifier>{46fce6a7-491c-4ae8-8478-8dc4baec990d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Acceptor.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="boilerplate.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoop.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoopThread.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoopThreadPool.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InetAddress.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Poller.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketsOps.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpConnection.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerQueue.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpContext.cc">
+      <Filter>源文件\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpResponse.cc">
+      <Filter>源文件\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpServer.cc">
+      <Filter>源文件\http</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect\Inspector.cc">
+      <Filter>源文件\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect\PerformanceInspector.cc">
+      <Filter>源文件\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect\ProcessInspector.cc">
+      <Filter>源文件\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect\SystemInspector.cc">
+      <Filter>源文件\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="poller\DefaultPoller.cc">
+      <Filter>源文件\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="poller\EPollPoller.cc">
+      <Filter>源文件\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="poller\PollPoller.cc">
+      <Filter>源文件\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ProtobufCodecLite.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protorpc\RpcChannel.cc">
+      <Filter>源文件\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="protorpc\RpcCodec.cc">
+      <Filter>源文件\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="protorpc\RpcCodec_test.cc">
+      <Filter>源文件\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="protorpc\RpcServer.cc">
+      <Filter>源文件\protorpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Acceptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="boilerplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Callbacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Connector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Endian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoopThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoopThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InetAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Poller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketsOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpConnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerId.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZlibStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpContext.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpRequest.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpResponse.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpServer.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect\Inspector.h">
+      <Filter>头文件\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect\PerformanceInspector.h">
+      <Filter>头文件\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect\ProcessInspector.h">
+      <Filter>头文件\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect\SystemInspector.h">
+      <Filter>头文件\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="poller\EPollPoller.h">
+      <Filter>头文件\poller</Filter>
+    </ClInclude>
+    <ClInclude Include="poller\PollPoller.h">
+      <Filter>头文件\poller</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\BufferStream.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ProtobufCodecLite.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protorpc\google-inl.h">
+      <Filter>头文件\protorpc</Filter>
+    </ClInclude>
+    <ClInclude Include="protorpc\RpcChannel.h">
+      <Filter>头文件\protorpc</Filter>
+    </ClInclude>
+    <ClInclude Include="protorpc\RpcCodec.h">
+      <Filter>头文件\protorpc</Filter>
+    </ClInclude>
+    <ClInclude Include="protorpc\RpcServer.h">
+      <Filter>头文件\protorpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
